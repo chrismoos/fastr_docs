@@ -176,6 +176,8 @@ latex_documents = [
    u'Chris Moos', 'manual'),
 ]
 
+highlight_language = 'ruby'
+
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #latex_logo = None

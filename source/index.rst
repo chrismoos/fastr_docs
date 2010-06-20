@@ -3,13 +3,36 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Fastr's documentation!
+fastr
 =================================
 
-Contents:
+fastr is an event-based web framework for Ruby.
+
+Quick Start
+----------------
+
+You can setup a fastr application by doing the following.
+
+.. code-block:: bash
+
+  $ sudo gem install fastr
+  $ fastr init helloworld
+  $ cd helloworld
+  $ thin -p 5000 start
+
+Guide
+--------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   
+   guide/setup
+   guide/structure
+   guide/settings
+   guide/routes
+   guide/controllers
+   guide/views
+   guide/plugins
 
 Indices and tables
 ==================
